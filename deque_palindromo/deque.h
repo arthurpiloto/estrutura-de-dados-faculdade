@@ -13,7 +13,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 typedef struct {
     int qtd, ini, fim;
@@ -21,8 +20,7 @@ typedef struct {
 } Deque;
 
 Deque* criaDeque() {
-    Deque *dq;
-    dq = (Deque*)malloc(sizeof(Deque));
+    Deque *dq = (Deque*)malloc(sizeof(Deque));
     if (dq != NULL) dq -> qtd = dq -> ini = dq -> fim = 0;
     return dq;
 }
