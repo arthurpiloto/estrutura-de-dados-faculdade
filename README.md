@@ -37,7 +37,7 @@ diretório-do-programa$ make
 3. Execute a aplicação:
 
 ```bash
-diretório-do-programa$ ./prog
+diretório-do-programa$ prog.exe
 ```
 
 ## 🤝 Contribuição
