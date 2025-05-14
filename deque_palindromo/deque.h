@@ -1,3 +1,12 @@
+/*
++----------------- File: deque.h -----------------------+
+| Deque Sequencial Estático                             |
+|					      		                        |
+|					      		                        |
+| Implementado por Arthur Piloto Silva em 14/05/2025    |
++-------------------------------------------------------+
+*/
+
 #ifndef DEQUE_H
 #define DEQUE_H
 #define MAX 100
