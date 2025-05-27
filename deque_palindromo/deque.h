@@ -63,7 +63,7 @@ int insereIni(Deque *dq, char elem) {
 int removeIni(Deque *dq, char *c) {
     if (dq == NULL || estaVazio(dq)) return 0;
     dq->ini = (dq->ini+1) % MAX;
-    dq->qtd++;
+    dq->qtd--;
     return 1; 
 }
 
